@@ -1,0 +1,14 @@
+
+.form-div{
+    width: 50%;
+    background-color: rgb(153, 202, 222);
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    border-style: solid;;
+}
+
+.button{
+    font-weight: bold;
+}
+

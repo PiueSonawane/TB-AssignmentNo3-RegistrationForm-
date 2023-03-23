@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-div">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="details">Enter your details below</label>
+            <ul class="list">
+                <li><input type="email" name="email" placeholder="your_email@gmail.com"></li> <br>
+                <li><input type="password" name="password" placeholder="password" required="!Type a complex password with 8-20 characters."></li><br>
+           
+            <span style="font-weight: bold;">!Type a complex password with 8-20 characters.</span><br><br>
+                <li><input type="number" name="phone" placeholder="+20 Phone Number"></li>
+        
+        <hr id="border">
+        <h3 style="font-style: italic;">Enter your profession:</h3>
+                <li>
+                    <input type="radio" name="profession">Student
+                    <input type="radio" name="profession">Teacher
+                    <input type="radio" name="profession">Developer
+                </li><br>
+                Choose the stage if you are (student)
+                <select>
+                    <option>first primary</option>
+                    <option>second primary</option>
+                    <option>third primary</option>
+                </select>
+        <hr id="border"><br>
+                <li>Enter your birth date
+                    <input type="date" name="date">
+                </li><br>
+        <hr id="border"><br>
+                <li><input type="text" name="note" placeholder="Any note"></li><br>
+        <hr id="border">
+                
+                    <input type="submit" name="submit" value="Submit" class="button">
+                    <input type="submit" name="reset" value="Reset" class="button">
+                
+        </ul>
+        </form>
+    </div>
+</body>
+</html>
